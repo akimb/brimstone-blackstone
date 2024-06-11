@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyg5r100eqa3t"
+path="res://.godot/imported/MINE SOUND 1.mp3-3eebe049dc17cb9b24011a6e9a448400.mp3str"
+
+[deps]
+
+source_file="res://Sounds/MINE SOUND 1.mp3"
+dest_files=["res://.godot/imported/MINE SOUND 1.mp3-3eebe049dc17cb9b24011a6e9a448400.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

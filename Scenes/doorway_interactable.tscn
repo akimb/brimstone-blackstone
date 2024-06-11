@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5ip7wej1f355"]
+
+[ext_resource type="Script" path="res://Scripts/doorway_interactable.gd" id="1_n1psf"]
+[ext_resource type="Texture2D" uid="uid://doqpkgnvjs0l" path="res://Art/Keyboard & Mouse/Default/keyboard_e.png" id="2_8jx2x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kagg8"]
+size = Vector2(16, 16)
+
+[sub_resource type="LabelSettings" id="LabelSettings_uf2ss"]
+font_size = 10
+
+[node name="Doorway Interactable" type="Node2D"]
+z_index = 10
+script = ExtResource("1_n1psf")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-2.00001, 3.99999)
+rotation = 1.5708
+scale = Vector2(2, 1)
+shape = SubResource("RectangleShape2D_kagg8")
+debug_color = Color(1, 1, 1, 0.419608)
+
+[node name="KeyboardE" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-26, -30)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_8jx2x")
+
+[node name="E to Interact" type="Label" parent="."]
+visible = false
+offset_left = -18.0
+offset_top = -41.0
+offset_right = 33.0
+offset_bottom = -18.0
+text = "to interact"
+label_settings = SubResource("LabelSettings_uf2ss")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered" flags=18]

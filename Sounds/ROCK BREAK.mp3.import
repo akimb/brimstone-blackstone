@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://6gwuofl5op6a"
+path="res://.godot/imported/ROCK BREAK.mp3-183aa07cd94ee56d04f8aacbb4c0cb97.mp3str"
+
+[deps]
+
+source_file="res://Sounds/ROCK BREAK.mp3"
+dest_files=["res://.godot/imported/ROCK BREAK.mp3-183aa07cd94ee56d04f8aacbb4c0cb97.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

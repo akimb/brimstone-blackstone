@@ -1,0 +1,6 @@
+Things to do:
+	
+	- Disable player input while game is paused
+	- Figure out how to teleport player to last used door upon leaving a shop
+	- Figure out better AudioManager for tuning dB levels
+	

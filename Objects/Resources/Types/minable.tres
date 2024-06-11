@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ResourceNodeType" load_steps=2 format=3 uid="uid://demj2cji3g5fu"]
+
+[ext_resource type="Script" path="res://Objects/Resources/Types/resource_node_type.gd" id="1_665yi"]
+
+[resource]
+script = ExtResource("1_665yi")
+displayName = "Minable"

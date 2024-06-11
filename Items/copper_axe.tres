@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HarvestingTool" load_steps=3 format=3 uid="uid://dcv4u5euqw6is"]
+
+[ext_resource type="Script" path="res://Items/HarvestingTool.gd" id="1_u4rf6"]
+[ext_resource type="Texture2D" uid="uid://bviug0yn6xs3f" path="res://Art/ChrisTutorial Placeholder Assets/Art/Tools/axe_copper.png" id="2_hb3xp"]
+
+[resource]
+script = ExtResource("1_u4rf6")
+affectedTypes = Array[Resource("res://Resources/Types/resource_node_type.gd")]([])
+toolDamageValue = 1
+texture = ExtResource("2_hb3xp")
+displayName = ""
